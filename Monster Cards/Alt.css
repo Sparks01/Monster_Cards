@@ -1,0 +1,98 @@
+/* Basic reset for consistent styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+/* Styling the main title (Vampire Spawn) */
+h1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+/* Subtitle styling (CR, Armor Class, etc.) */
+p strong {
+    color: #555;
+    font-weight: bold;
+}
+
+/* General paragraph styling */
+p {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the stat table */
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: none;
+}
+
+th {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+}
+
+/* Section headers styling (ACTIONS, BONUS ACTIONS) */
+h3 {
+    background-color: #555;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* List items styling in sections like ACTIONS, BONUS ACTIONS */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li strong {
+    color: #333;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
